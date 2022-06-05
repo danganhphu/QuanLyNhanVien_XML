@@ -33,7 +33,7 @@ namespace QuanLyNhanVien
             {
                 employee = doc.CreateElement("nhanvien"); //tao moi element nhanvien
                 empId = doc.CreateAttribute("manv"); //tao moi thuoc tinh manv
-                empId.Value = emp.EmpID; //gan gia tri cho thuoc tinh manv
+                empId.Value = emp.EmpID; //gan gia tri cho thuoc tinh mã nv
                 employee.Attributes.Append(empId); //them thuoc tinh manv vao nv
 
                 empName = doc.CreateElement("hoten"); //tao moi element hoten
