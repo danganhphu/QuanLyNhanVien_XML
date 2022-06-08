@@ -1,6 +1,6 @@
 ﻿namespace QuanLyNhanVien
 {
-    partial class Form1
+    partial class frmNhanVien
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNhanVien));
             this.dgvInfor = new System.Windows.Forms.DataGridView();
             this.empId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.empName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,6 +49,7 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInfor)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,7 +68,7 @@
             this.dgvInfor.Location = new System.Drawing.Point(28, 225);
             this.dgvInfor.Name = "dgvInfor";
             this.dgvInfor.ReadOnly = true;
-            this.dgvInfor.Size = new System.Drawing.Size(713, 204);
+            this.dgvInfor.Size = new System.Drawing.Size(716, 148);
             this.dgvInfor.TabIndex = 18;
             this.dgvInfor.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInfor_CellClick);
             // 
@@ -108,7 +109,7 @@
             // txtDeptTel
             // 
             this.txtDeptTel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDeptTel.Location = new System.Drawing.Point(332, 115);
+            this.txtDeptTel.Location = new System.Drawing.Point(322, 115);
             this.txtDeptTel.Name = "txtDeptTel";
             this.txtDeptTel.Size = new System.Drawing.Size(221, 26);
             this.txtDeptTel.TabIndex = 9;
@@ -116,7 +117,7 @@
             // txtDeptName
             // 
             this.txtDeptName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDeptName.Location = new System.Drawing.Point(434, 69);
+            this.txtDeptName.Location = new System.Drawing.Point(424, 69);
             this.txtDeptName.Name = "txtDeptName";
             this.txtDeptName.Size = new System.Drawing.Size(221, 26);
             this.txtDeptName.TabIndex = 10;
@@ -124,7 +125,7 @@
             // txtEmpName
             // 
             this.txtEmpName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmpName.Location = new System.Drawing.Point(434, 24);
+            this.txtEmpName.Location = new System.Drawing.Point(424, 24);
             this.txtEmpName.Name = "txtEmpName";
             this.txtEmpName.Size = new System.Drawing.Size(221, 26);
             this.txtEmpName.TabIndex = 11;
@@ -132,7 +133,7 @@
             // txtSalary
             // 
             this.txtSalary.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSalary.Location = new System.Drawing.Point(100, 69);
+            this.txtSalary.Location = new System.Drawing.Point(90, 69);
             this.txtSalary.Name = "txtSalary";
             this.txtSalary.Size = new System.Drawing.Size(221, 26);
             this.txtSalary.TabIndex = 12;
@@ -140,7 +141,7 @@
             // txtEmpId
             // 
             this.txtEmpId.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmpId.Location = new System.Drawing.Point(100, 27);
+            this.txtEmpId.Location = new System.Drawing.Point(90, 27);
             this.txtEmpId.Name = "txtEmpId";
             this.txtEmpId.Size = new System.Drawing.Size(221, 26);
             this.txtEmpId.TabIndex = 13;
@@ -149,7 +150,7 @@
             // 
             this.lblDeptTel.AutoSize = true;
             this.lblDeptTel.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeptTel.Location = new System.Drawing.Point(172, 120);
+            this.lblDeptTel.Location = new System.Drawing.Point(162, 120);
             this.lblDeptTel.Name = "lblDeptTel";
             this.lblDeptTel.Size = new System.Drawing.Size(111, 21);
             this.lblDeptTel.TabIndex = 4;
@@ -159,7 +160,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(351, 74);
+            this.label4.Location = new System.Drawing.Point(341, 74);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(83, 21);
             this.label4.TabIndex = 5;
@@ -169,7 +170,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(24, 74);
+            this.label3.Location = new System.Drawing.Point(14, 74);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 21);
             this.label3.TabIndex = 6;
@@ -179,7 +180,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(351, 29);
+            this.label2.Location = new System.Drawing.Point(341, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 21);
             this.label2.TabIndex = 7;
@@ -189,7 +190,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(24, 32);
+            this.label1.Location = new System.Drawing.Point(14, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 21);
             this.label1.TabIndex = 8;
@@ -200,7 +201,7 @@
             this.btnThem.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(85, 163);
+            this.btnThem.Location = new System.Drawing.Point(75, 163);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(96, 41);
             this.btnThem.TabIndex = 19;
@@ -214,7 +215,7 @@
             this.btnSua.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(255, 163);
+            this.btnSua.Location = new System.Drawing.Point(245, 163);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(82, 41);
             this.btnSua.TabIndex = 20;
@@ -228,7 +229,7 @@
             this.btnXoa.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(401, 163);
+            this.btnXoa.Location = new System.Drawing.Point(391, 163);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(91, 41);
             this.btnXoa.TabIndex = 21;
@@ -242,7 +243,7 @@
             this.btnHuy.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.Image = ((System.Drawing.Image)(resources.GetObject("btnHuy.Image")));
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuy.Location = new System.Drawing.Point(563, 163);
+            this.btnHuy.Location = new System.Drawing.Point(553, 163);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(92, 41);
             this.btnHuy.TabIndex = 22;
@@ -251,13 +252,26 @@
             this.btnHuy.UseVisualStyleBackColor = true;
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
-            // Form1
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.CadetBlue;
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(667, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(103, 59);
+            this.button1.TabIndex = 23;
+            this.button1.Text = "Hợp đồng lao động";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(774, 450);
+            this.ClientSize = new System.Drawing.Size(782, 390);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
@@ -273,8 +287,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Quản lý nhân viên";
+            this.Name = "frmNhanVien";
+            this.Text = "Quản lý nhân viên_XML";
             ((System.ComponentModel.ISupportInitialize)(this.dgvInfor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -303,6 +317,7 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnHuy;
+        private System.Windows.Forms.Button button1;
     }
 }
 
