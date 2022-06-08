@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="congty.xsl"?>
+<congty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="congty.xsd">
+	<nhanvien manv="NV01">
+		<hoten>Đặng Anh Phú</hoten>
+		<luong>8000</luong>
+		<phongban>
+			<tenphong>Nhập sách</tenphong>
+			<dienthoai>0986218211</dienthoai>
+		</phongban>
+	</nhanvien>
+	<nhanvien manv="NV02">
+		<hoten>Phan Hồng Nam</hoten>
+		<luong>900</luong>
+		<phongban>
+			<tenphong>Thủ thư</tenphong>
+			<dienthoai>0986216457</dienthoai>
+		</phongban>
+	</nhanvien>
+	<nhanvien manv="NV03">
+		<hoten>Nguyen Van Hai</hoten>
+		<luong>1221</luong>
+		<phongban>
+			<tenphong>Kế toán</tenphong>
+			<dienthoai>0938312124</dienthoai>
+		</phongban>
+	</nhanvien>
+	<nhanvien manv="NV04">
+		<hoten>Bùi Văn Tình</hoten>
+		<luong>3242</luong>
+		<phongban>
+			<tenphong>Marketing</tenphong>
+			<dienthoai>0938423456</dienthoai>
+		</phongban>
+	</nhanvien>
+	<nhanvien manv="NV05">
+		<hoten>Lê Thúy Kiều</hoten>
+		<luong>6503</luong>
+		<phongban>
+			<tenphong>Thủ thư</tenphong>
+			<dienthoai>0876025046</dienthoai>
+		</phongban>
+	</nhanvien>
+	<nhanvien manv="NV06">
+		<hoten>Trần Văn Nam</hoten>
+		<luong>5400</luong>
+		<phongban>
+			<tenphong>Nhập sách</tenphong>
+			<dienthoai>0864178742</dienthoai>
+		</phongban>
+	</nhanvien>
+	<nhanvien manv="NV07">
+		<hoten>Nguyễn Hữu Vương</hoten>
+		<luong>5700</luong>
+		<phongban>
+			<tenphong>Thủ Thư</tenphong>
+			<dienthoai>0347489215</dienthoai>
+		</phongban>
+	</nhanvien>
+	<HopDongLD MaHD="HD01" manv="NV01">
+		<TenHD>Hợp đồng lao động viết tay</TenHD>
+		<NgayBD>2022-05-20</NgayBD>
+		<NgayKT>2023-05-20</NgayKT>
+	</HopDongLD>
+	<HopDongLD MaHD="HD02" manv="NV02">
+		<TenHD>Hợp đồng hứa hẹn bằng lời nói và viết tay</TenHD>
+		<NgayBD>2022-05-10</NgayBD>
+		<NgayKT>2022-10-10</NgayKT>
+	</HopDongLD>
+	<HopDongLD MaHD="HD03" manv="NV03">
+		<TenHD>Hợp đồng bằng miệng</TenHD>
+		<NgayBD>2022-04-15</NgayBD>
+		<NgayKT>2023-10-15</NgayKT>
+	</HopDongLD>
+	<HopDongLD MaHD="HD04" manv="NV04">
+		<TenHD>Hợp đồng bằng miệng</TenHD>
+		<NgayBD>2022-03-02</NgayBD>
+		<NgayKT>2022-06-30</NgayKT>
+	</HopDongLD>
+	<HopDongLD MaHD="HD05" manv="NV05">
+		<TenHD>Hợp đồng lao động viết tay</TenHD>
+		<NgayBD>2021-02-09</NgayBD>
+		<NgayKT>2022-11-09</NgayKT>
+	</HopDongLD>
+</congty>
