@@ -11,7 +11,7 @@ namespace QuanLyNhanVien
     internal class XMLHandler
     {
         private XmlDocument doc;
-        private string filename = Directory.GetCurrentDirectory() + @"..\..\..\DuLieu\congty.xml";
+        private string filename = Directory.GetCurrentDirectory() + @"..\..\..\Data\congty.xml";
         private List<NhanVien> empList;
 
         public void create(List<NhanVien> empList)
